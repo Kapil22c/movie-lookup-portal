@@ -1,0 +1,36 @@
+.form {
+    /* display: grid; */
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 18%;
+    margin-right: 20%;
+    
+}
+
+.input {
+    width: 70%;
+    padding: 1rem 2rem;
+
+}
+
+.button {
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 1rem 2rem;
+    border: 1px solid rgba(0,0,0,0.75);
+    border-radius: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 250ms;
+}
+
+.button:hover {
+    background-color: rgba(0,0,0,0.85);
+}
+
+.result--list {
+    justify-content: left;
+    flex-wrap: wrap;
+}
